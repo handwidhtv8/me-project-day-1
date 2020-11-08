@@ -17,3 +17,4 @@
 ## Completed Static Site
 
 ![Completed Site](./images/day-1-site.png)
+## [Click](https://handwidhtv8.github.io/me-project-day-1/) here to see my *site!*
