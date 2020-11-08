@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Trispace:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+:root {
+  --img-font: 'Trispace', sans-serif;
+  --skills-font: 'Share Tech Mono', monospace;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#logo {
+    width: 10%;  
+}
+h1{
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: #195df1;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #0c63b4;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: inline;
+    text-align: center;
+    z-index: 20;
+  }
+  
+  .nav-li {
+    display: inline;
+  }
+  
+  .nav-bar li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 15px 40px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  li a:hover {
+    color: #000000;
+  }
+
+  .hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://wallpaperaccess.com/full/30100.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  .hero-text a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .hero-image a:visited {
+    color: white;
+  }
+
+  .hero-image a:hover {
+    text-decoration: underline;
+  }
+
+  .container {
+    display: flex;
+    padding: 1em;
+    justify-content: center;
+    align-items: center;
+    background-color: #0c63b4;
+  }
+  
+  .item {
+    flex: 1;
+    padding: 1em;
+    margin: .2em;
+    background-color: #0c63b4;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: var(--skills-font);
+  }
+
+  .text-container {
+    color: white;
+  }
+
+  #floridapic {
+    width: 100%;
+    border-radius: 1000px;
+  }
+
+  .simg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://cosmosmagazine.com/wp-content/uploads/2020/02/190218-mount-full-1440x810.jpg");
+    height: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: sticky;
+    top: 0;
+  }
+  
+  .simg-text {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: var(--img-font);
+  }
+
+  #skillz {
+    text-align: center;
+    font-size: 50px;
+    margin: 10px;
+    color: silver;
+    font-family: var(--skills-font);
+  }
+
+  .container-2 {
+    display: flex;
+    padding: 1em;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .item-2 {
+    flex: 1;
+    padding: 1em;
+    margin: .4em;
+    background-color: rgb(189, 189, 189, 0.3);
+    height: 40vh;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: var(--skills-font);
+  }
+
+  .fas {
+    font-size: 90px;
+    color: #6da8f5;
+  }
+
+  footer {
+    background-color: #4d4c4c;
+    font-family: Helvetica;
+    color: white;
+    text-align: center;
+}
+
+copyr {
+    margin-top: 100px;
+}
+
+.soc {
+    display: inline;
+}
+
+.socials {
+    list-style-type: none;
+    position: relative;
+    display: inline;
+    text-align: center;
+}
+
+.socials li a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.socials li a:hover {
+  color: #000000;
+}
+
+#button {
+  display: inline-block;
+  background-color: #f15555;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  margin: 30px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s;
+  z-index: 1000;
+}
+
+#button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+
+#button:active {
+  background-color: #555;
+}
+
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
